@@ -76,7 +76,8 @@ const Hero = () => {
                 </button>
                 <button
                   className="px-6 py-3 lg:py-3.5 lg:px-7 rounded-lg
-                bg-neutral-100 hover:bg-neutral-200 dark:hover:bg-neutral-700 dark:bg-neutral-800 text-neutral-900 dark:text-white 
+                bg-neutral-100 hover:bg-neutral-200 dark:hover:bg-neutral-700 dark:bg-neutral-800
+                 text-neutral-900 dark:text-white 
                 font-medium shadow-lg
                  flex border border-neutral-300 dark:border-neutral-700
                 items-center transition group"
@@ -127,8 +128,60 @@ const Hero = () => {
                     <i className="bx bxs-star text-amber-500 mr-1"></i>
                     <i className="bx bxs-star text-amber-500 mr-1"></i>
                     <i className="bx bxs-star-half text-amber-500 mr-1"></i>
+                    <span
+                      className="text-neutral-600 dark:text-neutral-500 text-sm
+                    ml-1 "
+                    >
+                      4.8/5
+                    </span>
+                  </div>
+                  <p
+                    className="text-neutral-600 dark:text-neutral-400
+                  text-sm "
+                  >
+                    Trusted by{" "}
+                    <span
+                      className="font-bold text-neutral-900
+                  dark:text-white"
+                    >
+                      5,000+
+                    </span>{" "}
+                    developers world wide
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 w-full">
+            <div className="relative ">
+              <div
+                className="relative bg-white dark:bg-neutral-900 p-4
+                    lg:p-5 xl:p-6 rounded-2xl shadow-2xl border border-neutral-200
+                    dark:border-neutral-800"
+              >
+                <div className="flex items-center justify-between mb-3 lg:mb-4">
+                  <div className="flex items-center gap-2">
+                    <span
+                      className="w-2.5 h-2.5 lg:w-3 lg-3 rounded-full
+                    bg-red-500"
+                    ></span>
+                    <span
+                      className="w-2.5 h-2.5 lg:w-3 lg-3 rounded-full
+                    bg-amber-500"
+                    ></span>
+                    <span
+                      className="w-2.5 h-2.5 lg:w-3 lg-3 rounded-full
+                    bg-green-500"
+                    ></span>
+                  </div>
+                  <div className="text-xs text-neutral-500 dark:tett-neutral-400">
+                    dark-mode.jsx
                   </div>
                 </div>
+                <div
+                  className="h-56 md:h-54 lg:h-60 xl:h-72 rounded-lg
+                bg-neutral-100 dark:bg-neutral-500 overflow-hidden relative"
+                ></div>
               </div>
             </div>
           </div>
