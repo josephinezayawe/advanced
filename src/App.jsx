@@ -4,7 +4,12 @@ import Hero from "./components/hero";
 const App = () => {
   const [darkMode, setDarkMode] = useState(() => {
     const savedMode = localStorage.getItem("theme");
-    return savedMode === "dark";
+
+    if (savedMode) {
+      return savedMode === "dark";
+    } else {
+      return window.watchMedia("(prefers-color-scheme:dark)").matches;
+    }
   });
   useEffect(() => {
     if (darkMode) {
